@@ -1,0 +1,15 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card {
+  border-radius: 20px;
+  border-color: #fff;
+}
+.card-img-top {
+  border-radius: 20px;
+}
