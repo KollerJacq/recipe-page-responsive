@@ -99,6 +99,7 @@ hr {
 .nutrition {
   font-size: 15px;
   padding: 0;
+  margin-left: -15px;
 }
 .nutrition-paragraph {
   font-size: 15px;
