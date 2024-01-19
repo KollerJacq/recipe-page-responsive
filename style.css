@@ -138,7 +138,7 @@ hr {
     margin-top: 0;
     border-radius: 0;
     width: 400px;
-    position: inherit;
+    position: relative;
     right: 40px;
   }
 }
