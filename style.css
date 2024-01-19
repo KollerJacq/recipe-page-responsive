@@ -1,15 +1,140 @@
 body {
   background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
 }
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+h2,
+h3 {
+  font-size: 27px;
+}
+h1 {
+  margin: 30px 0 15px;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 18px;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+div,
+li,
+.nutrition-paragraph,
+.description {
+  color: hsl(30, 10%, 34%);
+}
+hr {
+  opacity: 0.1;
+  margin-top: 5px;
 }
 .card {
   border-radius: 20px;
   border-color: #fff;
+  padding: 40px;
+  width: 800px;
+  margin: 100px auto;
 }
 .card-img-top {
-  border-radius: 20px;
+  border-radius: 10px;
+}
+.description {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.dot {
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+  display: flex;
+  position: absolute;
+  left: 70px;
+  margin-top: -7px;
+}
+.dot-ingr {
+  color: hsl(14, 45%, 36%);
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  left: 45px;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+.ingr {
+  list-style: none;
+  line-height: 1.7;
+  font-size: 14px;
+}
+.instr {
+  display: block;
+  margin-left: 30px;
+}
+.instructions {
+  list-style: none;
+  padding: 0;
+}
+.instruction-list {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.instruction-header,
+.nutrition-header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.number {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+}
+.nutri {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.nutrition {
+  font-size: 15px;
+  padding: 0;
+}
+.nutrition-paragraph {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 25px 25px 0;
+  margin-bottom: 30px;
+}
+.preparation-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+.time {
+  font-size: 14px;
+  line-height: 2;
+  list-style: none;
+}
+@media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+  .card {
+    padding: 0 40px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    width: 100%;
+  }
+  .card-img-top {
+    margin-top: 0;
+    border-radius: 0;
+    width: 400px;
+    position: inherit;
+    right: 40px;
+  }
 }
